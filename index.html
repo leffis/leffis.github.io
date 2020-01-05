@@ -63,14 +63,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
-
-	<div class="success-area">
-		---
-		layout: front
-		---
-	</div>
-	
+	</div>	
 	
 
 	
@@ -98,8 +91,7 @@
       	}
       });
 
-      
-		
+     		
 	
       (function() {
           var link_element = document.createElement("link"),
@@ -169,7 +161,7 @@
           var answerCorrect = function() {
           		$('.login-form').fadeOut();
           		$('.congratulation-text').fadeIn();
-          		$('.success-area').css('display','block');
+          		window.location = 'mainpage.html';
           };
 
       })();
