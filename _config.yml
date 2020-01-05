@@ -1,12 +1,11 @@
 # Site settings
-title: abcd
-email: abcd
+title: ForLinna
+email: 471680285@qq.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "leffis.github.io" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
-twitter_username: abcd
-github_username: abcd
+github_username: leffis
 
 # Build settings
 markdown: kramdown
