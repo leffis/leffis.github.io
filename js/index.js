@@ -1,9 +1,9 @@
-$(document).ready(function() {
+(function() {
     //$('#username').focus();
 
     $('#submit').click(function() {
 
-        //event.preventDefault(); // prevent PageReLoad
+        event.preventDefault(); // prevent PageReLoad
 
         var ValidEmail = $('#username').val() === 'Linna'; // User validate
         var ValidPassword = $('#password').val() === '55'; // Password validate
