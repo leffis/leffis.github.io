@@ -1,0 +1,12 @@
+# Site settings
+title: abcd
+email: abcd
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "leffis.github.io" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+
+twitter_username: abcd
+github_username: abcd
+
+# Build settings
+markdown: kramdown
