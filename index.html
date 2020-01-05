@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>登录</title>
-</head>
-<body>
-	<form action="mainpage.html" method="POST">
-   		<input name="username">
-   		<input type="password" name="password">
-   		<button type="submit">Submit</button>
-	</form>
-</body>
+	<head>
+		<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>登录</title>
+    	<link rel="stylesheet" href="css/index.css" type="text/css">
+    	<script src="js/index.js"></script>
+	</head>
+	<body>
+		<section class="form animated flipInX">
+  			<h2>先验证下身份！</h2>
+  			<p class="valid">登陆成功啦！o(*≧▽≦)ツ</p>
+  			<p class="error">欸，不是某人不能上(๑✦ˑ̫✦)</p>
+  			<form class="loginbox" autocomplete="off">
+    			<input placeholder="Username" type="text" id="username"></input>
+    			<input placeholder="Password" type="password" id="password"></input>
+				<button id="submit">提交</button>
+			</form>
+		</section>
+	</body>
 </html>
