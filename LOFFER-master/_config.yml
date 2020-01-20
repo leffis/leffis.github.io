@@ -104,6 +104,7 @@ kramdown:
 
 # Set the Sass partials directory, as we're using @imports
 sass:
+  sass_dir: LOFFER-master/_sass
   style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
